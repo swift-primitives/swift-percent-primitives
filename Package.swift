@@ -12,7 +12,7 @@ extension Target.Dependency {
 import PackageDescription
 
 let package = Package(
-    name: "swift-percent",
+    name: "swift-percent-primitives",
     products: [
         .library(
             name: .percent,
