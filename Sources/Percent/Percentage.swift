@@ -213,7 +213,6 @@ extension Percentage: Numeric {
 
     /// Adds the right percentage to the left percentage in place.
     public static func += (lhs: inout Self, rhs: Self) {
-        // swiftlint:disable:next shorthand_operator
         lhs = lhs + rhs
     }
 
@@ -224,7 +223,6 @@ extension Percentage: Numeric {
 
     /// Subtracts the right percentage from the left percentage in place.
     public static func -= (lhs: inout Self, rhs: Self) {
-        // swiftlint:disable:next shorthand_operator
         lhs = lhs - rhs
     }
 
@@ -235,7 +233,6 @@ extension Percentage: Numeric {
 
     /// Multiplies the left percentage by the right percentage in place.
     public static func *= (lhs: inout Self, rhs: Self) {
-        // swiftlint:disable:next shorthand_operator
         lhs = lhs * rhs
     }
 
@@ -260,7 +257,6 @@ extension Percentage {
 
     /// Divides the left percentage by the right percentage in place.
     public static func /= (lhs: inout Self, rhs: Self) {
-        // swiftlint:disable:next shorthand_operator
         lhs = lhs / rhs
     }
 }
