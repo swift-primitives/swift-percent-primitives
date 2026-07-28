@@ -1,0 +1,12 @@
+# .github/metadata.yaml
+description: "A Swift package with foundational types for percentages."
+homepage: "https://swift-institute.org"
+topics:
+  - decimal
+  - domain-modeling
+  - percentage
+  - swift
+  - type-safe
+  - types
+readme:
+  family: E
