@@ -1,6 +1,6 @@
 # swift-percent
 
-[![CI](https://github.com/coenttb/swift-percent/workflows/CI/badge.svg)](https://github.com/coenttb/swift-percent/actions/workflows/ci.yml)
+[![CI](https://github.com/swift-primitives/swift-percent-primitives/workflows/CI/badge.svg)](https://github.com/swift-primitives/swift-percent-primitives/actions/workflows/ci.yml)
 ![Development Status](https://img.shields.io/badge/status-active--development-blue.svg)
 
 A type-safe percentage type for Swift with arithmetic operations, comparisons, and conversions.
@@ -28,7 +28,7 @@ Add swift-percent as a dependency in your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/coenttb/swift-percent.git", from: "0.1.0")
+    .package(url: "https://github.com/swift-primitives/swift-percent-primitives.git", branch: "main")
 ]
 ```
 
@@ -179,9 +179,9 @@ let doubleResult = 50%.of(doubleValue)  // 100.0 (Double)
 
 ### Used By
 
-- [swift-bunq](https://github.com/coenttb/swift-bunq): A Swift package for the Bunq banking API.
+- [swift-bunq](https://github.com/swift-foundations/swift-bunq): A Swift package for the Bunq banking API.
 - [swift-document-templates](https://github.com/coenttb/swift-document-templates): A Swift package for data-driven business document creation.
-- [swift-money](https://github.com/coenttb/swift-money): A Swift package with foundational types for currency and monetary calculations.
+- [swift-money](https://github.com/swift-foundations/swift-money): A Swift package with foundational types for currency and monetary calculations.
 
 ## License
 
